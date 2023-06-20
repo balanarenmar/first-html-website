@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset ="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="css/bootstrap.css">
+      <title>PYTHON : a website design</title>
+
+      <style type="text/css">
+
+        .banner{
+          background-image: linear-gradient(to right, #3fc3e0,#00096f);
+          padding: 0px 10px 0px 15px;
+        }
+            .contain {
+                padding: 15px 10px 15px 15px;
+                background-color: seashell;
+            }
+            .logo{
+              float: left;
+              width: 100px;
+              height: 100px;
+            }
+        /*Banner section*/
+        #Heading{
+          background-image: linear-gradient(to right, #3fc3e0,#00096f);
+          color: #fff;
+          padding: 10px 10px 0px 10px;
+        }
+
+           .Lgreet {
+                  font-size: 40px;
+                  font-weight: 600;
+                  margin:50px 0px 0px 50px;
+           }
+          .Rgreet {
+                  color: #ffd343;
+                  font-size: 40px;
+                  font-weight: 600;
+                  margin:50px 50px 0px 0px;
+                  text-align: right;
+        }
+        /*Cards section*/
+         #cards {
+         }
+
+        .card{
+          margin: 10px 15px 10px 15px;
+        }
+     
+
+         .linklist{
+          text-decoration: none;
+          color:#000;
+         }
+         a.linklist:hover{
+          color:blue;
+         }
+
+         .newslist{
+          text-decoration: none;
+          color:#000;
+         }
+         a.newslist:hover{
+          color: #ffd343;
+         }
+
+        .python{
+          font-size:75px;
+          font-weight: bold;
+          transition: color 2s ease-out 100ms
+         }
+        .python:hover{
+          color: #ffd343;
+        }
+
+        .btn:hover{
+          background-image:none !important;
+          background-color:#ffd343 !important;
+          color: black;
+        }
+
+        .author-name{
+          font-weight: bold;
+          transition: color 1s ease-out 50ms
+         }
+        .author-name:hover{
+          color: #3776ab;
+        }
+
+        .toBlu{
+          transition: color 1s ease-out 50ms
+         }
+        .toBlu:hover{
+          color: #3776ab;
+        }
+
+        .toYel{
+          transition: color 1s ease-out 50ms
+         }
+        .toYel:hover{
+          color: #ffd343;
+        }
+
+        .author{
+          color:yellow;
+          text-decoration:none;
+        }
+         a.author:hover {
+          color:#DDD;
+          text-decoration: underline;
+          text-transform: uppercase;
+         }
+
+         .prof{
+          color: whitesmoke;
+          transition: color 1s ease-out 50ms
+         }
+         .prof:hover{
+            text-decoration: underline;
+            color: #ffd343;
+         }
+
+        .b-divider {
+        height: 2rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+        .image-holder {
+          max-width: 70%;
+          height: auto;
+      }
+        .barr{
+          padding: 20px 40px;
+        }
+        .promo{
+          background-image: linear-gradient(to right, #3fc3e0,#00096f);
+          padding: 0px 10px 0px 15px;
+        }
+        .news{
+          padding: 20px 0px 20px 50px;
+          margin: 0px 20px;
+        }
+        .mailAsk{
+          border-style: solid;
+          color: whitesmoke;
+          margin: 30px 30px;
+          padding: 10px 10px;
+        }
+        .newsitem{
+          background-color:transparent;
+          color: white;
+        }
+        #Zen{
+          background-image:fff;
+          padding: 20px 30px 20px 30px;
+        }
+
+        #creator{
+            padding: 20px 40px;
+        }
+        #Footing{
+           background-image: linear-gradient(to right, #3fc3e0,#00096f);
+           padding: 10px 5px 5px 5px;
+           margin: 0 auto;
+        }
+
+     </style>
+  </head>
+
+<body>
+
+  <section class="banner">
+      <div class="row">
+        <div class="col toYel" style="font-size:25px; padding-top:5px;"><B>CS 106 - </B>APPLICATION DEVELOPMENT AND EMERGING TECHNOLOGIES</div>
+        <div class="col-md-2" style="text-align: right;">
+            <div style="font-size:14px; padding-right:10px; color:whitesmoke;">Activity #4</div>
+            <div class="prof "style="font-size:15px; padding-right:10px;"><I>Prof:&nbsp </I>Benedict B. Balilo</div>
+          </div>
+      </div>
+  </section>
+
+  <section id="Heading" class="sticky-top">
+        <div class="container">
+          <div class="row justify-content-md-center">
+              <div class="col-md-auto">
+              <img src="logo.png" alt="Python logo" class="logo" width="10px" hspace="25px" > </div>
+              <div class="col-md-auto python">PYTHON</div>
+              <div class="col-md-auto toYel"><I>Programming Language</I></div>
+          </div>
+        </div>
+  </section>
+
+  <section class="banner">
+    <div class="row">
+        <div class="col-md-6">
+            <p class="Lgreet">What is Python?</p>
+            <p style=" padding-left:50px; padding-right:50px; font-weight:500; font-size: 18px;" align="justify">&nbsp &nbsp Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. </p>
+        </div>
+      <div class="col-md-6">
+          <p class="Rgreet">Why use Python?</p>
+          <ul type=circle style="padding-left:50px; padding-right:50px; color:whitesmoke;" align="justify"> 
+                <li>Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. </li> 
+                <li>Python supports modules and packages, which encourages program modularity and code reuse.</li>
+                <li>The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.</li>
+          </ul> 
+      </div>
+  </section>
+
+ <section id="getStart">
+   <div class="card text-center">
+      <div class="card-header">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">How to get started</h5>
+        <p class="card-text">Download Python source code and installers:</p>
+        <a href="#" class="btn btn-primary" title="Downlaod Python 3.9.6 for Windows"><img src="download.svg" alt="Download Button"></a>
+      </div>
+      <div class="card-footer text-muted">   Latest Build: 3.9.6   </div>
+  </div>
+  </section>
+
+  <section id="card">
+      <div class="row">
+      <div class="col-sm-4">
+        <div class="card text-end" style="background-color: rgba(200, 200, 200, .5);">
+          <div class="card-body">
+            <h5 class="card-title">Visit us at our Main Website</h5>
+            <br><p class="card-text">Learn more about us by visiting the link below.</p>
+            <a href="https://www.python.org/" class="btn btn-primary">python.org</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card text-center" style="background-color: rgba(200, 200, 200, .5);">
+          <div class="card-body">
+            <h5 class="card-title">Documentations</h5>
+            <p class="card-text">Documentation for Python's standard library, along with tutorials and guides, are available online.</p>
+            <a href="https://www.python.org/doc/" class="btn btn-primary">Python Docs</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card" style="background-color: rgba(200, 200, 200, .5);">
+          <div class="card-body">
+            <h5 class="card-title">Join the Community</h5>
+            <p class="card-text" >Great software is supported by great people. Meet other users, or get help with veteran Pythoneers</p>
+            <a href="https://www.python.org/community/" class="btn btn-primary">Python Community</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="b-divider"></div>
+
+  <section class="promo"> 
+      <div class="row">
+        <div class="col-md-6">
+          <img src="snek.png" alt="Snake art" class="image-holder">
+        </div>
+        <div class="col"> 
+        <h3 style="margin: 20px 60px 10px 60px; color:#ffd343;" align="right">Python is powerful... and fast;<br>
+              plays well with others;<br>
+              runs everywhere;<br>
+              is friendly & easy to learn;<br>
+              is Open.
+        </h3>
+        </div>
+  </section>
+
+  <div class="b-divider"></div>
+
+  <div class="container-fluid" >
+      <div class="row">
+        <div class="col-md-6 barr">
+          <hr>
+          <h2 class="toBlu">Applications:</h2>
+          <p> The <a class="linklist" href="https://pypi.org/">Python Package Index (PyPI)</a> hosts thousands of third-party modules for Python. Both Python's standard library and the community-contributed modules allow for endless possibilities. </p>
+          <div class="row">
+            <div class="col-md-6 offset-md-2">
+              <ul type="square" >
+                <li><a class="linklist" href="https://www.python.org/about/apps/#web-and-internet-development">Web and Internet Development</a></li>
+                <li><a class="linklist" href="#">Database Access</a></li>
+                <li><a class="linklist" href="#">Desktop GUIs</a></li>
+                <li><a class="linklist" href="#">Scientific & Numeric</a></li>
+                <li><a class="linklist" href="#">Education</a></li>
+                <li><a class="linklist" href="#">Network Programming</a></li>
+                <li><a class="linklist" href="#">Software & Game Development</a></li>
+              </ul>
+            </div>
+          </div><hr>
+        </div>
+        <div class="col barr"><hr>
+          <div class="row">
+          <h4 class="toBlu">Popularity:</h4>
+            <p>Since 2003, Python has consistently ranked in the top ten most popular programming languages in the TIOBE Programming Community Index where, as of February 2021, it is the third most popular language (behind Java, and C).<br>
+            <br> Large organizations that use Python include <a class="linklist" href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>, <a class="linklist" href="https://www.google.com/">Google</a>, <a class="linklist" href="#">Yahoo!</a>, <a class="linklist" href="https://home.cern/">CERN</a>, <a class="linklist" href="https://www.nasa.gov/">NASA</a>,<a class="linklist" href="https://web.facebook.com/"> Facebook</a>, <a class="linklist" href="https://www.amazon.com/">Amazon</a>, <a class="linklist" href="https://www.instagram.com/">Instagram</a>, <a class="linklist" href="https://open.spotify.com/">Spotify</a> and some smaller entities like <a class="linklist" href="https://www.ilm.com//">ILM</a> and <a class="linklist" href="https://www.itasoftware.com/">ITA</a>. The social news networking site <a class="linklist" href="https://www.reddit.com/">Reddit</a> was written mostly in Python.</p><hr>
+          </div>
+        <div class="row">
+          <p>Python is developed under an OSI-approved open source license. That means it is freely usable and distributable for everybody, even for commercial use.<BR>Python's license is administered by the <a class="linklist" href="https://www.python.org/psf-landing/">Python Software Foundation</a>.</p><hr>
+          </div>
+        </div>
+      </div>
+  </div>  
+  <div class="b-divider"></div>
+
+  <section id="Zen">
+    <div class="zen-of-py row justify-content-md-center">
+      <div class="card text-center" style="width: 50rem;background-color: black;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: white;">.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.</h5>
+        <div class="accordion">
+        <div class="accordion-item"  >
+          <h2 class="accordion-header " id="headingOne" >
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="background-color:black;color: white;" >
+              <h5 class="toBlu">The Zen of Python</h5>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="background-color:black;color: white;">
+            <div class="accordion-body" >
+              Also known as <strong>Pep-20</strong>, it is the Language's Core Philosophy.
+              <ul style="color:lightgray; font-size:14px;" type="none">
+                  <li>&nbsp</li><!--It's up to you!-->
+                  <li>Beautiful is better than ugly.</li>
+                  <li>Explicit is better than implicit.</li>
+                  <li>Simple is better than complicated.</li>
+                  <li>Flat is better than nested.</li>
+                  <li>Sparse is better than dense.</li>
+                  <li>Readabilty counts.</li>
+                  <li>Special cases aren't special enough to break the rules.</li>
+                  <li>Although practicality beats purity.</li>
+                  <li>Errors should never pass silently.</li>
+                  <li>Unless explicitly silenced.</li>
+                  <li>In the face of ambiguity, refuse the temptation to guess.</li>
+                  <li>There should be one-- and preferably only one --obvious way to do it.</li>
+                  <li>Although that may never be obvious at first unless you're Dutch.</li>
+                  <li>Now is better than never.</li>
+                  <li>Although never is often better than *right* now.</li>
+                  <li>If the implementation is hard to explain, it's a bad idea.</li>
+                  <li>If the implementation is easy to explain, it may be a bad idea.</li>
+                  <li>Namespaces are one honking great idea -- let's do more of those!</li>
+                </ul>
+
+            </div>
+          </div>
+       </div>
+        </div>
+        <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 10px;">by Tim Peters</h6>
+         <h6 class="text-muted"><em>A Collection of Guiding Principles</em></h6>
+      </div>
+    </div>
+  </section>
+
+  <div class="b-divider"></div>
+
+   <div class="banner">
+      <div class="container-fluid"></div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="news">
+              <div class="row">
+                  <h2 class="toYel">NEWS</h2>
+              </div>
+              <div class="row" style="padding-left:80px">
+                  <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                          <th scope="row">2021-08-03</th>
+                          <td><a href="https://blog.python.org/" class="newslist">Python 3.10.0rc1 is available</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2021-09-10</th>
+                          <td><a href="https://www.python.org/events/python-events/1083/" class="newslist">PyConline AU 2021</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2021-09-17</th>
+                          <td><a href="https://www.python.org/events/python-events/1084/" class="newslist">PyCon India 2021</a></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2021-09-19</th>
+                          <td><a href="https://www.python.org/events/python-events/1141/" class="newslist">PyWeek 32</a></td>
+                        </tr>
+                    </tbody>
+                  </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+              <div class="mailAsk">
+                <div class="row">
+                   <h5>Want to keep updated in the latest Python News? Subscribe to our weekly Newsletter now! </h5>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <form name="sign" method="get" action="url">  
+                      <input type="text" name="25px" maxlength="30" >
+                   </div>
+                  <div class="col">
+                    <input type="submit" class="btn btn-primary" name="sign-up" value="Sign me up">
+                    </form>
+                  </div>
+                </div>
+              </div>   
+          </div>
+        </div>
+    </div>
+
+  <div class="b-divider"></div>
+
+  <section  id="creator">
+    <div class="media">
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="portrait.png" alt="Photo of Van Rossum" align="right" style="border: 3px solid #ffd343;">
+        </div>  
+        <div class="col-md-9 float-sm-left">    
+            <div class="media-body ">
+              <h3 class="author-name">Guido van Rossum</h3>
+                  <p>Dutch programmer, creator of the Python programming language.</p>
+                  <p>In December 1989, Van Rossum was looking for a 'hobby' programming project that would keep him occupied during the week around Christmas, at <abbr title="Centrum Wiskunde & Informatica">CWI</abbr> in the Netherlands as a successor to ABC programming language.
+                  <p>Python's name is derived from the British comedy group Monty Python, something Van Rossum enjoyed while developing the language. Monty Python references appear frequently in Python code and culture. The official Python documentation also contains various references to Monty Python routines.</p>
+            </div>
+        </div> 
+      </div>      
+    </div>
+  </section>
+
+  <section id="Footing">
+    <div class="row text-center">
+      <div class="col">
+        <a class="author" href="https://web.facebook.com/renmarbalana.4" style="font-size:18px; text-align:center;" title="Author of the html Website">Renmar F. Balana</a>
+        <p align="center">BSCS - 2C</p>
+      </div>
+       
+    </div>
+  </section>
+
+  <script src="js/bootstrap.js"></script>
+</body>
+</html>
